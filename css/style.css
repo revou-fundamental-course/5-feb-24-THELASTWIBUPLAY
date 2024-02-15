@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-color: blue;
+  text-align: center;
+  color: white;
+}
+
+body {
+  height: 100dvh;
+  background-color: aqua;
+}
+
+body p{
+  margin-top: 10px;
+}
+
+footer {
+  width: auto;
+  height: 100px;
+  text-align: center;
+  background-color: black;
+}
+
+footer p {
+  margin-top: 10px;
+  color: white;
+}
+
+footer strong {
+  color: white;
+}
+
+.btn-box {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+    flex-direction: column;
+}
+
+.btn-box button {
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(27, 23, 233, 1);
+  flex-grow: 1;
+  
+}
+
+input {
+  width: 100%;
+  border-radius: 15px;
+  border: 3px solid black;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+label {
+    margin: 10px 0;
+}
